@@ -40,3 +40,14 @@ target_compile_options(physics PRIVATE
         $<$<CXX_COMPILER_ID:MSVC>:/W4>
         $<$<NOT:$<CXX_COMPILER_ID:MSVC>>:-Wall -Wextra -Wpedantic>
         )
+# установка исполняемого файла
+install(TARGETS physics DESTINATION bin)
+
+# настройка CPack
+set(CPACK_GENERATOR "ZIP;DEB")
+set(CPACK_PACKAGE_VERSION "${PROJECT_VERSION}")
+set(CPACK_PACKAGE_NAME "physics")
+set(CPACK_PACKAGE_DESCRIPTION "Описание вашего проекта")
+set(CPACK_PACKAGE_VENDOR "Ваше имя или компания")
+set(CPACK_PACKAGE_CONTACT "Ваш контактный email")
+include(CPack)

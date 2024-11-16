@@ -181,6 +181,24 @@
 			"path" : "C:/msys64/mingw64/share/cmake/Modules/FetchContent/CMakeLists.cmake.in"
 		},
 		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/msys64/mingw64/share/cmake/Templates/CPackConfig.cmake.in"
+		},
+		{
 			"isGenerated" : true,
 			"path" : "build/_deps/sfml-src/CMakeLists.txt"
 		},
