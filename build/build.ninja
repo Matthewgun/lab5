@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_physics: phony || cmake_object_order_dep
 build CMakeFiles/physics.dir/main.cpp.obj: CXX_COMPILER__physics_unscanned_Debug C$:/labskazenkov/lab5/main.cpp || cmake_object_order_depends_target_physics
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\physics.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  FLAGS = -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic
   INCLUDES = -IC:/labskazenkov/lab5/build/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
@@ -60,7 +60,7 @@ build CMakeFiles/physics.dir/main.cpp.obj: CXX_COMPILER__physics_unscanned_Debug
 build CMakeFiles/physics.dir/World.cpp.obj: CXX_COMPILER__physics_unscanned_Debug C$:/labskazenkov/lab5/World.cpp || cmake_object_order_depends_target_physics
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\physics.dir\World.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  FLAGS = -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic
   INCLUDES = -IC:/labskazenkov/lab5/build/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
@@ -68,7 +68,7 @@ build CMakeFiles/physics.dir/World.cpp.obj: CXX_COMPILER__physics_unscanned_Debu
 build CMakeFiles/physics.dir/Ball.cpp.obj: CXX_COMPILER__physics_unscanned_Debug C$:/labskazenkov/lab5/Ball.cpp || cmake_object_order_depends_target_physics
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\physics.dir\Ball.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  FLAGS = -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic
   INCLUDES = -IC:/labskazenkov/lab5/build/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
@@ -76,7 +76,7 @@ build CMakeFiles/physics.dir/Ball.cpp.obj: CXX_COMPILER__physics_unscanned_Debug
 build CMakeFiles/physics.dir/Physics.cpp.obj: CXX_COMPILER__physics_unscanned_Debug C$:/labskazenkov/lab5/Physics.cpp || cmake_object_order_depends_target_physics
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\physics.dir\Physics.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  FLAGS = -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic
   INCLUDES = -IC:/labskazenkov/lab5/build/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
@@ -84,7 +84,7 @@ build CMakeFiles/physics.dir/Physics.cpp.obj: CXX_COMPILER__physics_unscanned_De
 build CMakeFiles/physics.dir/Color.cpp.obj: CXX_COMPILER__physics_unscanned_Debug C$:/labskazenkov/lab5/Color.cpp || cmake_object_order_depends_target_physics
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\physics.dir\Color.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  FLAGS = -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic
   INCLUDES = -IC:/labskazenkov/lab5/build/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
@@ -92,7 +92,7 @@ build CMakeFiles/physics.dir/Color.cpp.obj: CXX_COMPILER__physics_unscanned_Debu
 build CMakeFiles/physics.dir/Painter.cpp.obj: CXX_COMPILER__physics_unscanned_Debug C$:/labskazenkov/lab5/Painter.cpp || cmake_object_order_depends_target_physics
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\physics.dir\Painter.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  FLAGS = -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic
   INCLUDES = -IC:/labskazenkov/lab5/build/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
@@ -100,7 +100,7 @@ build CMakeFiles/physics.dir/Painter.cpp.obj: CXX_COMPILER__physics_unscanned_De
 build CMakeFiles/physics.dir/Dust.cpp.obj: CXX_COMPILER__physics_unscanned_Debug C$:/labskazenkov/lab5/Dust.cpp || cmake_object_order_depends_target_physics
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\physics.dir\Dust.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  FLAGS = -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic
   INCLUDES = -IC:/labskazenkov/lab5/build/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir
@@ -108,7 +108,7 @@ build CMakeFiles/physics.dir/Dust.cpp.obj: CXX_COMPILER__physics_unscanned_Debug
 build CMakeFiles/physics.dir/black_box/Application.cpp.obj: CXX_COMPILER__physics_unscanned_Debug C$:/labskazenkov/lab5/black_box/Application.cpp || cmake_object_order_depends_target_physics
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\physics.dir\black_box\Application.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  FLAGS = -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic
   INCLUDES = -IC:/labskazenkov/lab5/build/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir\black_box
@@ -116,7 +116,7 @@ build CMakeFiles/physics.dir/black_box/Application.cpp.obj: CXX_COMPILER__physic
 build CMakeFiles/physics.dir/black_box/View.cpp.obj: CXX_COMPILER__physics_unscanned_Debug C$:/labskazenkov/lab5/black_box/View.cpp || cmake_object_order_depends_target_physics
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\physics.dir\black_box\View.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  FLAGS = -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic
   INCLUDES = -IC:/labskazenkov/lab5/build/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir\black_box
@@ -124,7 +124,7 @@ build CMakeFiles/physics.dir/black_box/View.cpp.obj: CXX_COMPILER__physics_unsca
 build CMakeFiles/physics.dir/black_box/PainterImpl.cpp.obj: CXX_COMPILER__physics_unscanned_Debug C$:/labskazenkov/lab5/black_box/PainterImpl.cpp || cmake_object_order_depends_target_physics
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\physics.dir\black_box\PainterImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17 -Wall -Wextra -Wpedantic
+  FLAGS = -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic
   INCLUDES = -IC:/labskazenkov/lab5/build/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\physics.dir
   OBJECT_FILE_DIR = CMakeFiles\physics.dir\black_box
@@ -138,7 +138,7 @@ build CMakeFiles/physics.dir/black_box/PainterImpl.cpp.obj: CXX_COMPILER__physic
 # Link the executable physics.exe
 
 build physics.exe: CXX_EXECUTABLE_LINKER__physics_Debug CMakeFiles/physics.dir/main.cpp.obj CMakeFiles/physics.dir/World.cpp.obj CMakeFiles/physics.dir/Ball.cpp.obj CMakeFiles/physics.dir/Physics.cpp.obj CMakeFiles/physics.dir/Color.cpp.obj CMakeFiles/physics.dir/Painter.cpp.obj CMakeFiles/physics.dir/Dust.cpp.obj CMakeFiles/physics.dir/black_box/Application.cpp.obj CMakeFiles/physics.dir/black_box/View.cpp.obj CMakeFiles/physics.dir/black_box/PainterImpl.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
-  FLAGS = -g
+  FLAGS = -std=c++17 -g
   LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lopengl32  -lwinmm  -lgdi32  _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\physics.dir
   POST_BUILD = cd .

@@ -1,15 +1,20 @@
 cmake_minimum_required(VERSION 3.7.2)
-project(physics)
+set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
+set(PROJECT_VERSION 0.0.${PATCH_VERSION})
+project(physics VERSION ${PROJECT_VERSION})
 
 set(CMAKE_CXX_STANDARD 17)
-
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CPACK_PROJECT_NAME physics)
 # Пытаемся найти предустановленный SFML
 find_package(SFML COMPONENTS graphics)
 
+
+# скачивание SFML
 if (SFML_FOUND)
     message(STATUS "The SFML installed in the system will be used")
 else ()
-    # Если SFML не найден - выкачиваем и собираем из исходников
+# Если SFML не найден - выкачиваем и собираем из исходников
     message(STATUS "Get SFML from the source code")
     include(FetchContent)
     FetchContent_Declare(SFML
@@ -24,22 +29,29 @@ else ()
     FetchContent_MakeAvailable(SFML)
 endif ()
 
-# К сожалению, вплоть до C++20 https://en.cppreference.com/w/cpp/numeric/constants
-# нет удобного кроссплатформенного способа получить число pi.
-# define ниже нужен для включения M_PI
+# для использования M_PI
 if (MSVC)
     add_definitions(-D_USE_MATH_DEFINES)
 endif ()
 
+# добавление исполняемого файла
 add_executable(physics
         main.cpp World.cpp Ball.cpp Physics.cpp Color.cpp Painter.cpp Dust.cpp
         black_box/Application.cpp black_box/View.cpp black_box/PainterImpl.cpp)
+
+# связывание с SFML
 target_link_libraries(physics PRIVATE sfml-graphics)
+
+if (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")  # Флаг для компилятора MSVC (Windows)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /std:c++17")
+else() # Флаг для g++ и clang++ (Linux, MacOS) 
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+endif()
 
 target_compile_options(physics PRIVATE
         $<$<CXX_COMPILER_ID:MSVC>:/W4>
-        $<$<NOT:$<CXX_COMPILER_ID:MSVC>>:-Wall -Wextra -Wpedantic>
-        )
+        $<$<NOT:$<CXX_COMPILER_ID:MSVC>>:-Wall -Wextra -Wpedantic>)
+
 # установка исполняемого файла
 install(TARGETS physics DESTINATION bin)
 

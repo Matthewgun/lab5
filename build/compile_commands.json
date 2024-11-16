@@ -1,61 +1,61 @@
 [
 {
   "directory": "C:/labskazenkov/lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\main.cpp.obj -c C:\\labskazenkov\\lab5\\main.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include  -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\main.cpp.obj -c C:\\labskazenkov\\lab5\\main.cpp",
   "file": "C:\\labskazenkov\\lab5\\main.cpp",
   "output": "CMakeFiles\\physics.dir\\main.cpp.obj"
 },
 {
   "directory": "C:/labskazenkov/lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\World.cpp.obj -c C:\\labskazenkov\\lab5\\World.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include  -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\World.cpp.obj -c C:\\labskazenkov\\lab5\\World.cpp",
   "file": "C:\\labskazenkov\\lab5\\World.cpp",
   "output": "CMakeFiles\\physics.dir\\World.cpp.obj"
 },
 {
   "directory": "C:/labskazenkov/lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Ball.cpp.obj -c C:\\labskazenkov\\lab5\\Ball.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include  -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Ball.cpp.obj -c C:\\labskazenkov\\lab5\\Ball.cpp",
   "file": "C:\\labskazenkov\\lab5\\Ball.cpp",
   "output": "CMakeFiles\\physics.dir\\Ball.cpp.obj"
 },
 {
   "directory": "C:/labskazenkov/lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Physics.cpp.obj -c C:\\labskazenkov\\lab5\\Physics.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include  -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Physics.cpp.obj -c C:\\labskazenkov\\lab5\\Physics.cpp",
   "file": "C:\\labskazenkov\\lab5\\Physics.cpp",
   "output": "CMakeFiles\\physics.dir\\Physics.cpp.obj"
 },
 {
   "directory": "C:/labskazenkov/lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Color.cpp.obj -c C:\\labskazenkov\\lab5\\Color.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include  -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Color.cpp.obj -c C:\\labskazenkov\\lab5\\Color.cpp",
   "file": "C:\\labskazenkov\\lab5\\Color.cpp",
   "output": "CMakeFiles\\physics.dir\\Color.cpp.obj"
 },
 {
   "directory": "C:/labskazenkov/lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Painter.cpp.obj -c C:\\labskazenkov\\lab5\\Painter.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include  -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Painter.cpp.obj -c C:\\labskazenkov\\lab5\\Painter.cpp",
   "file": "C:\\labskazenkov\\lab5\\Painter.cpp",
   "output": "CMakeFiles\\physics.dir\\Painter.cpp.obj"
 },
 {
   "directory": "C:/labskazenkov/lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Dust.cpp.obj -c C:\\labskazenkov\\lab5\\Dust.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include  -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\Dust.cpp.obj -c C:\\labskazenkov\\lab5\\Dust.cpp",
   "file": "C:\\labskazenkov\\lab5\\Dust.cpp",
   "output": "CMakeFiles\\physics.dir\\Dust.cpp.obj"
 },
 {
   "directory": "C:/labskazenkov/lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\black_box\\Application.cpp.obj -c C:\\labskazenkov\\lab5\\black_box\\Application.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include  -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\black_box\\Application.cpp.obj -c C:\\labskazenkov\\lab5\\black_box\\Application.cpp",
   "file": "C:\\labskazenkov\\lab5\\black_box\\Application.cpp",
   "output": "CMakeFiles\\physics.dir\\black_box\\Application.cpp.obj"
 },
 {
   "directory": "C:/labskazenkov/lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\black_box\\View.cpp.obj -c C:\\labskazenkov\\lab5\\black_box\\View.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include  -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\black_box\\View.cpp.obj -c C:\\labskazenkov\\lab5\\black_box\\View.cpp",
   "file": "C:\\labskazenkov\\lab5\\black_box\\View.cpp",
   "output": "CMakeFiles\\physics.dir\\black_box\\View.cpp.obj"
 },
 {
   "directory": "C:/labskazenkov/lab5/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\black_box\\PainterImpl.cpp.obj -c C:\\labskazenkov\\lab5\\black_box\\PainterImpl.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -IC:/labskazenkov/lab5/build/_deps/sfml-src/include  -std=c++17 -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\physics.dir\\black_box\\PainterImpl.cpp.obj -c C:\\labskazenkov\\lab5\\black_box\\PainterImpl.cpp",
   "file": "C:\\labskazenkov\\lab5\\black_box\\PainterImpl.cpp",
   "output": "CMakeFiles\\physics.dir\\black_box\\PainterImpl.cpp.obj"
 },
