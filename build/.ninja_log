@@ -87,3 +87,14 @@
 2964	8890	7534383568151250	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj	488749d16246be09
 18443	21611	7534383695890232	_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.obj	d9747ac1b5d98c7f
 60	399	7534383483971569	_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj	e2bfdbd42a3081d0
+91	690	7534462017378010	CMakeFiles/physics.dir/Color.cpp.obj	561ea990785357c3
+118	917	7534462019658008	CMakeFiles/physics.dir/black_box/View.cpp.obj	f3fc9671dc7424c7
+104	1153	7534462021979000	CMakeFiles/physics.dir/Dust.cpp.obj	6baf04bd4925048a
+77	1171	7534462022209616	CMakeFiles/physics.dir/Ball.cpp.obj	c4f213393c457533
+84	1429	7534462024720587	CMakeFiles/physics.dir/Physics.cpp.obj	e831fcc2454f6cad
+127	1783	7534462028217427	CMakeFiles/physics.dir/black_box/PainterImpl.cpp.obj	9b8e2a39feec87bc
+97	1921	7534462029722015	CMakeFiles/physics.dir/Painter.cpp.obj	c47d3f687930131d
+112	2081	7534462031220460	CMakeFiles/physics.dir/black_box/Application.cpp.obj	97836272b5422b64
+70	2147	7534462031875783	CMakeFiles/physics.dir/World.cpp.obj	1fd50a6e4d73628a
+60	2150	7534462032044229	CMakeFiles/physics.dir/main.cpp.obj	b33778d8fdf89361
+2151	2800	7534462038208070	physics.exe	e854d636f4a76d4d
