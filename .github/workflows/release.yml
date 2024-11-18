@@ -37,8 +37,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release_macos.outputs.upload_url }}
-        asset_path: ./physics-0.0.${{ github.run_number }}-MacOSRelease.zip #Path changed
-        asset_name: physics-0.0.${{ github.run_number }}-MacOSRelease.zip
+        asset_path: ./physics-0.0.${{ github.run_number }}-Darwin.zip #Path changed
+        asset_name: physics-0.0.${{ github.run_number }}-Darwin.zip
         asset_content_type: application/zip
 
   build_ubuntu:
